@@ -47,7 +47,7 @@ function handleUserChoice() {
 }
 
 
-// expected output: "Not a Number!"
+
 
 //GLOBAL FUNCTION where to add all small functions
 
