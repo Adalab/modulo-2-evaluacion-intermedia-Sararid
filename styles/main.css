@@ -2,6 +2,7 @@ body {
   margin: 0px 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  width: 100vw;
 }
 .container {
   display: flex;
@@ -13,13 +14,21 @@ body {
 .container_2 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.container_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 input {
   border: darkslategray solid 2px;
   margin: 5px 0px;
   padding: 3px 0px;
-  width: 50vw;
+  width: 50%;
 }
 
 .btn_style {
