@@ -48,12 +48,25 @@ function handleUserChoice() {
 
 
 
+/*   tERCERA PARTE (FUNCTION 2)
+*/
+let sum = 0
+
+function calcClicks() {
+
+    sum++;
+    console.log(sum)
+    numAttempt.value = `Número de intentos: ${sum} `
+}
+
+
 
 //GLOBAL FUNCTION where to add all small functions
 
 function handleAllFunctions(e) {
     e.preventDefault();
-    handleUserChoice()
+    handleUserChoice();
+    calcClicks();
 
 }
 

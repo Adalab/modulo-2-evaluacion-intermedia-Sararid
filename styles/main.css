@@ -4,11 +4,11 @@ body {
   font-size: 18px;
 }
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 .container_2 {
   display: flex;
@@ -16,10 +16,10 @@ body {
   align-items: flex-start;
 }
 input {
-  border: black solid 2px;
+  border: darkslategray solid 2px;
   margin: 5px 0px;
   padding: 3px 0px;
-  width: 50vw;
+  width: 100%;
 }
 
 .btn_style {
