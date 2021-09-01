@@ -1,0 +1,30 @@
+body {
+  margin: 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+input {
+  border: black solid 2px;
+  margin: 5px 0px;
+  padding: 3px 0px;
+  width: 50vw;
+}
+
+.btn_style {
+  width: 100px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+}
